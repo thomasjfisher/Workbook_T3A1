@@ -10,7 +10,7 @@
 
 Large projects with many authors contributing need a good Version Control System in order to track changes and avoid mishaps. 
 
-![Nvie.com Git Workflow Model](../docs/git-workflow-model_nvie.png)
+![Nvie.com Git Workflow Model](https://github.com/thomasjfisher/Workbook_T3A1/blob/main/docs/git-work-flow-model_nvie.png)
 
 References: 
 
