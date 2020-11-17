@@ -164,10 +164,103 @@ var y = (true == 1)
 #### References:
 
 https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion
+https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/
+https://medium.com/developers-arena/type-coercion-in-javascript-c973b369b272
 
 ### Q9. Explain data types, using examples from the JavaScript programming language
 
+A data type in JavaScripts alway of a certain type. 
+
+#### Number
+
+Number represents integer and float. There are two types of numbers, Regular numbers, and BigInt numbers. *Regular numbers* are stored in 64-bit format, which is also known as "double precision floating point numbers". *BigInt* numbers represent integers of arbitrary length.
+
+```javascript
+var numberOne = 5;
+var numberTwo = 5;
+var sum = numberOne + numberTwo;
+var expoNumber = 123e5	// 12300000;
+```
+
+
+
+#### String
+
+JavaScript strings are for storing and manipulating text. A string can consist of zero or more characters when inside quotes.
+
+```javascript
+var greet = "Hello World";
+var welcome = "Hello, and thank you all for coming here tonight";
+var helloWorld = `${greet}, and welcome back`;
+```
+
+
+
+#### Boolean
+
+The Boolean data type has only two values. They are `true` and `false`. Booleans are commonly used to store yes and  no values, `true` representing "yes, correct" and `false` representing "no, incorrect".
+
+```javascript
+var x = 5;
+var y = 5;
+var z = 6;
+var sum = (x == y);		// true as 5 == 5
+var sum2 = (x == z);	// flase as 5 =/= 6
+```
+
+
+
+#### The "null" value
+
+The special "null" value does not actually belong to any of the data types listed above. It forms its on data type which only consists of the value `null`. In JavaScript, `null` is not a reference to a non existing object, but rather it holds its own value of "nothing", "empty" or "value unknown"
+
+```javascript
+let age = null;
+```
+
+
+
+#### The "undefined" value
+
+Like the `null` value, `undefined` is also a unique data type. If a variable is declared but not assigned , then it is stored as an `undefined` value. 
+
+```javascript
+let age;	// this will return undefined
+```
+
+
+
+#### Objects and Symbols
+
+Objects are used to store a collection of data and more complex entries of information. They can gold many values.
+
+```javascript
+var car = {make: "Toyota", color: "Red", model: "Yaris", year: "2010"}
+```
+
+In order to access any of the information in an object, you first must point to where you are going. eg
+`"The color of that car is " + car.color;`, which will return `"The color of that car is Red"`.
+
+The Symbol type is used to create unique identifiers for objects. 
+
+#### The typeof operator
+
+The typeof operator returns the data type of an argument. Its helpful for when we need to see what types of data we have / are using in our code.
+
+```javascript
+typeof 0 					// number
+typeof "zero"			// string
+typeof true				// boolean
+```
+
+
+
 #### References:
+
+https://www.w3schools.com/js/js_datatypes.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+https://javascript.info/types
+https://javascript.info/number
 
 ### Q10. Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language
 
