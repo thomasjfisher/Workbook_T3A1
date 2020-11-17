@@ -12,7 +12,7 @@ Multiple software developers working on one project, mainly in teams, are consta
 
 With each team working on a brach from the master branch, it allows for uninterrupted work flow, which when it comes to a large project, is incredibly important. As show in the image below, you can see that from the master branch, there are multiple branches, each with their very own unique goal and outcome. These are the outcomes that the teams will be given to work on, and is why it is so important to have good source control when working in large groups, on large projects. 
 
-![Nvie.com Git Workflow Model](https://github.com/thomasjfisher/Workbook_T3A1/blob/main/docs/git-work-flow-model_nvie.png)
+![Nvie.com Git Workflow Model](../docs/git-workflow-model_nvie.png)
 
 References: 
 
@@ -159,7 +159,7 @@ var y = (true == 1)
 // these will all return `true`
 ```
 
-![]()
+![Equality Operator](https://github.com/thomasjfisher/Workbook_T3A1/blob/main/docs/equality_operator.png)
 
 #### References:
 
