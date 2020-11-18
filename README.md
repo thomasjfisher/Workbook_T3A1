@@ -401,6 +401,9 @@ var student = {
 
 #### References:
 
+https://medium.com/infancyit/javascript-object-manipulation-5d1145cf06ef
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+
 ### Q12. Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language
 
 As JSON (JavaScript Object Notation) was derived from the JavaScript programming language, it is clear to see why it is an easy natural selection to handle as a data format in JavaScript. Some general uses of using JSON include the storing of data, the generation of data structures from user input, configuration and verification of data, and the transferring of data from server to client, from client to server, or from server to serve. To parse the data with `JSON.parse()` we are sending the data to become an object. Similarly, using `JSON.stringify()` we are sending the data to be returned as a string. JSON data is normally accessed via the dot notation in JavaScript.
